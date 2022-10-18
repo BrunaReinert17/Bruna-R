@@ -15,6 +15,17 @@ public class MainPessoa {
 		
 		System.out.println(aluno.getNome());
 		System.out.println(aluno.getCpf());
+		
+        ArrayList<Pessoa> profs = new ArrayList<>();
+		
+		Professor prof = new Professor();
+		prof.setNome("Roberta");
+		prof.setCpf(13245678937l);
+		
+		profs.add(prof);
+		
+		System.out.println(prof.getNome());
+		System.out.println(prof.getCpf());
 	}
 
 
