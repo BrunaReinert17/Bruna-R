@@ -1,0 +1,23 @@
+package ifsc;
+
+import java.util.ArrayList;
+
+public class MainPessoa {
+
+	public static void main(String[] args) {
+		ArrayList<Pessoa> Aluninhos = new ArrayList<>();
+		
+		Aluno aluno = new Aluno();
+		aluno.setNome("Bruna ");
+		aluno.setCpf(14758567938l);
+		
+		Aluninhos.add(aluno);
+		
+		System.out.println(aluno.getNome());
+		System.out.println(aluno.getCpf());
+	}
+
+
+	}
+
+
